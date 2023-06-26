@@ -8,7 +8,7 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 ### Links
 
-- Live Site URL: [https://karoljaworski.github.io/FEM-Results-summary-component/](https://karoljaworski.github.io/FEM-FAQ-accordion-card)
+- Live Site URL: [https://karoljaworski.github.io/FEM-FAQ-accordion-card/](https://karoljaworski.github.io/FEM-FAQ-accordion-card)
 
 ### Built with
 
