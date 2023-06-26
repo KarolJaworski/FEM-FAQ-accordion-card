@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 0.75rem;
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 30px;
+  height: 700px;
+  overflow: hidden;
+}
+
+.grid-container {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  padding: 50px 100px;
+}
+
+/* Illustration side styling */
+
+.illustration-side {
+  position: relative;
+}
+
+.illustration-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.bg-pattern,
+.bg-box,
+.bg-woman {
+  position: relative;
+  display: block;
+}
+
+.bg-pattern {
+  top: -210px;
+  left: -665px;
+}
+
+.bg-woman {
+  top: -800px;
+  left: -170px;
+}
+
+.bg-box {
+  top: -1020px;
+  left: -184px;
+}
+
+/* End of illustration side styling */
+
+/* FAQ side styling */
+.faq-side-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-side-container h1 {
+  margin-bottom: 50px;
+  font-size: 2.2rem;
+}
+
+.faq {
+  margin-bottom: 20px;
+}
+
+.q {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: hsl(237, 12%, 33%);
+  font-size: 1.1rem;
+}
+
+.faq-side-container .faq .q {
+  transition: color 0.3s, font-weight 0.3s;
+}
+
+.q-text:hover {
+  color: hsl(14, 88%, 65%);
+  cursor: pointer;
+}
+
+.faq-side-container .faq .a {
+  display: none;
+  color: hsl(240, 6%, 50%);
+  font-size: 0.8rem;
+}
+
+.faq-side-container .divider {
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+  margin-bottom: 20px;
+}
+
+.toggle {
+  transition: rotate, 0.2s;
+}
+
+.toggle-rotated {
+  transform: rotate(180deg);
+}
+
+.bold-q {
+  font-weight: 700;
+  color: hsl(238, 29%, 16%);
+}
+/* End of FAQ side styling */
